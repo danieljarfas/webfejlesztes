@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.write("God did." + "<br>") //kiiras js-ben
+        console.log("big weapons") //kiiras konzolra
+        var a = 33
+        var b = 3.14
+        var nev = "Giovanni Giorgio"
+        var vane = true
+
+        //muveletek
+
+        var c = a + b
+        document.write(c + "<br>")
+
+        //tomb:)
+        var szamok = [1, 7, 22, 6]
+        var i
+        for (i = 0; i < szamok.length; i++) {
+            document.write(szamok[i] + "<br>")
+        }
+        //tombelemek osszege :()
+
+        //hany db 3-mal oszthato paros szam van????????
+        var db = 0
+        for (i = 0; i < szamok.length; i++) {
+            if (szamok[i] % 3 == 0 && szamok[i] % 2 == 0) {
+                db++
+            }
+        }
+        document.write(db + " klzopaszpekop")
+        //MELYIK A LEGNAGYOBB SZAM???
+
+        document.write(" <br>")
+        //beepitett metodusok
+        var most = new Date()
+        document.write(most +"<br>")
+        
+        document.write(most.getMonth()+"<br>")
+        document.write(most.getDay())
+    </script>
+</head>
+
+<body>
+    <p>Szoveg a body-ban, egy bekezdesben :steamhappy:</p>
+</body>
+
+</html>
