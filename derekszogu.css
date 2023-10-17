@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+header{
+    background-color: #8130bf;
+    color:white;
+}
+.border-fasz{
+    border: solid #8130bf;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}
+.vastag{
+    font-weight: bold;
+}
