@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="message">Hello World!</h1>
+    <button id="changeButton">Szöveg megváltoztatása</button>
+    <button id="changeBackgroundColor">Háttérszín megváltoztatása</button>
+    <input type="color" id="choosenColor"></input>
+    <script>
+        const buttonChange = document.getElementById("changeButton")
+        buttonChange.addEventListener("click", changeText)
+        function changeText() {
+             document.getElementById("message").innerHTML = "HI WORLD+!!"
+        }
+        const bColorChange = document.getElementById("changeBackgroundColor")
+        bColorChange.addEventListener("click", changeColor)
+        function changeColor(){
+            document.body.style.backgroundColor = document.getElementById("choosenColor").value
+        }
+    </script>
+</body>
+</html>
